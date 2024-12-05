@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+.grid-container {
+  width: 600px; /* Fixed width of the container */
+  height: 600px; /* Fixed height of the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+input{
+  width: 3.5vw;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+label{
+  margin: 0 10px 0 10px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

@@ -1,0 +1,40 @@
+
+.main{
+    background-image: url('..//background/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  .title{
+    padding: 20px;
+    width: 500px; 
+    margin: 40px auto;
+    align-items: center 
+    ;
+  }
+  .login {
+    background-color: purple; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 500px; 
+    margin: 40px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .login p {
+    margin-bottom: 10px; 
+  }
+
+  .input-group {
+    margin-bottom: 15px; 
+  }
+  .btn-primary {
+    background-color: #fff; 
+    border-color: #000; 
+    color: #000; 
+  }
+  
+  .btn-primary:hover {
+    background-color: #f7f7f7; 
+    border-color: #ccc; 
+  }

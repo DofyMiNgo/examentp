@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+.color-palette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: pink;
+  border: 10px solid gold;
+  padding: 50px 20px;
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%; /* Make the squares circular */
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.color-circle.selected {
+  border: 2px solid #000; /* Highlight the selected color */
+}
+
+.color-picker {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Make the picker circular */
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 5px;
+  background: none;
+  -webkit-appearance: none; /* Remove default styles */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.color-picker::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-picker::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+.color-picker.selected {
+  border: 2px solid #000; /* Highlight the selected color */
+}
+
+p{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+  

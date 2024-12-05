@@ -1,0 +1,15 @@
+<div class="color-palette">
+  <div 
+    *ngFor="let color of colors; let i = index" 
+    class="color-circle" 
+    [ngStyle]="{'background-color': color}"
+    (click)="selectColor(color)"
+    [class.selected]="color === selectedColor"> 
+  </div>
+  <input type="color" (input)="updateCustomColor($event)" class="color-picker">
+</div>
+
+   
+   
+   
+  

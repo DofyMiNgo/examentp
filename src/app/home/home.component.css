@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+.body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+
+app-color-palette,app-pixel-grid{
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2%;
+  width: fit-content;
+  background-color: #efb4ec;
+  border: 10px solid #ffd700;
+  top: 5%;
+  margin-top: 15px;
+} 
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.image-button img {
+  display: block;
+}
+
+
